@@ -1,0 +1,22 @@
+{
+  "name": "express-github-sync-app",
+  "version": "1.0.0",
+  "description": "An Express application for uploading and modifying files, synchronized with a GitHub repository.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "git-url-parse": "^12.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
